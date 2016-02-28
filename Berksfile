@@ -1,0 +1,13 @@
+source 'https://supermarket.chef.io'
+
+cookbook 'build-essential', '~> 2.3.1'
+cookbook 'git_user', '~> 0.4.0'
+cookbook 'heroku-toolbelt', '~> 0.1.0'
+cookbook 'memcached', '~> 2.0.3'
+cookbook 'nodejs', '~> 2.4.4'
+cookbook 'postgis', '~> 0.3.0'
+cookbook 'postgresql', '~> 4.0.0'
+cookbook 'redisio', '~> 2.3.0'
+cookbook 'ruby_build', '~> 0.8.0'
+cookbook 'ruby_rbenv', '~> 1.0.1'
+cookbook 'simple-mailcatcher', '~> 0.1.1'
