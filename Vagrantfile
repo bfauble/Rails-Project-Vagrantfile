@@ -21,6 +21,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
 
   config.vm.provision :chef_solo do |chef|
+    chef.channel = 'stable'
+    chef.version = '12.10.24'
+
     chef.add_recipe 'build-essential'
     chef.add_recipe 'heroku-toolbelt'
     chef.add_recipe 'memcached'
